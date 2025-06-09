@@ -31,17 +31,28 @@ body {
   line-height: 1.6;
   background-color: #060606;
   color: #fbfafa;
-  min-height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  justify-self: center;
 }
 
-footer {
+.home-main {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer {
   background-color: black;
   font-size: small;
   text-align: center;
-  padding: 10px;
+  padding: 1rem;
   color: #6e79a3;
+  width: 100%;
+  margin-top: auto;
+  border-top: 1px solid #1a1a1a;
 }
